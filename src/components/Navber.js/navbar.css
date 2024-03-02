@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: Poppins;
+  margin: 0;
+  padding: 0;
+}
+
+.Section-one {
+    background-image: url('/public//Images//Rectangle\ 2.png');
+    height: 114vh;
+}
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 1, 440px;
+  height: 90px;
+  padding: 0 100px;
+  box-shadow: 0px 2px 12px 0px #00000012;
+
+}
+
+.logo-side h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.logo-side span {
+    color: #9F8447;
+}
+
+.socialicon-side {
+    display: flex;
+    gap: 10px;
+
+}
+
+.main-image-text {
+    display: flex;
+}
+
+.main-image {
+    width: 813px;
+    height: 680px;
+    top: 90px;
+    left: 30px;
+
+}
+
+.text-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.back-color-text {
+    width: 160px;
+    height: 28px;
+    padding: 5px;
+    border-radius: 2px;
+    background: #9F8447;
+    color: #fff;
+    margin-bottom: 10px;
+    
+    
+}
+
+.back-color-text p {
+    margin: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    text-transform: uppercase;
+
+
+}
+
+.text-side h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 527px;
+    height: 162px;
+    margin: 0;
+
+}
+
+.text-side span {
+    color: #9F8447;
+}
+
+.text-side p {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 527px;
+    height: 84px;
+    margin-bottom: 20px;
+
+}
+
+.firstsec-buttons {
+    display: flex; 
+    gap: 10px;
+}
+.firstsec-buttons button {
+    background: #9F8447;
+    width: 172px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0.7px;
+    gap: 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    transition-duration: .5s;
+    text-transform: uppercase;
+
+}
+
+.firstsec-buttons button:hover {
+    color: #9F8447;
+    background: #fff;
+    border: 0.7px solid #9F8447;
+}

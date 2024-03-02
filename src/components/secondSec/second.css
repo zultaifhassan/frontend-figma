@@ -1,0 +1,52 @@
+.section-two {
+  display: flex;
+  width: 1, 440px;
+  height: 680px;
+  padding: 100px;
+  justify-content: space-between;
+}
+
+.sectwo-color-text {
+  background: #9f8447;
+  width: 100px;
+  height: 26px;
+  padding: 2px;
+  border-radius: 2px;
+  margin-bottom: 0;
+}
+
+.sectwo-color-text p {
+  margin: 0;
+  font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #fff;
+
+}
+
+.section-two h1 {
+  width: 560px;
+  height: 92px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.section-two span {
+  color: #9f8447;
+}
+
+.section-two p {
+    width: 605px;
+    height: 156px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
